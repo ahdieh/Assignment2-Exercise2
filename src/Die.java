@@ -7,7 +7,7 @@ public class Die {
 
 	// PRIVATE INSTANCE VARIABLES +++++++++++++++++++++++++++++++++++++
 	final SecureRandom randomObjects = new SecureRandom();
-	 private int _dice =randomObjects.nextInt(6);
+	 private int _dice =randomObjects.nextInt(6)+1;
 	 private int _number;
 		private int _result;
 		private int _game;
